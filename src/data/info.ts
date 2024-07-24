@@ -1,10 +1,10 @@
 export const info = {
-  baseUrl: "",
+  baseUrl: "https://agustinrodriguez.netlify.app",
   name: "Agustín Rodríguez",
   jobDescription: "Web Developer",
   about: `Un estudiante de Ingeniería de Software en la Universidad de Huelva. 
-  Me especializo en desarrollo web gracias a mis estudios y formación académica. Aunque aún no tengo mucha
-  experiencia profesional en el campo, estoy comprometido con mi aprendizaje continuo, explorando 
+  Me especializo en desarrollo web gracias a mis estudios y formación académica.
+  Estoy comprometido con mi aprendizaje diario, explorando 
   nuevas oportunidades para aplicar mis conocimientos y crecer en esta área.
   `,
 
@@ -60,7 +60,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/CodesInfinity/porfolio-astro/",
-      liveUrl: "https://github.com/CodesInfinity",
+      liveUrl: "https://agustinrodriguez.netlify.app/",
     },
   ],
 };

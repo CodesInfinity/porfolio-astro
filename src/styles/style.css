@@ -38,5 +38,4 @@
   .footer-icons {
     @apply dark:text-light flex items-center p-4 rounded-lg justify-center;
   }
-  
 }

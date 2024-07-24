@@ -4,14 +4,18 @@ import { IExperiences } from "@types";
 const { title, details } = Astro.props as IExperiences;
 ---
 
+<section class="relative mx-8 pb-12 before:absolute before:left-[-33px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
+      <span class="text-blue -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+    </div>
+  </div>
 <section
   class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
 >
-  <h2 class="w-[15rem] mt-16">{title}</h2>
+  <h2 class="w-[15rem] mt-3">{title}</h2>
   <div class="w-full">
     {
       details.map((item) => (
-        <div class="my-16">
+        <div class="my-3">
           <div class="flex justify-between items-center flex-wrap">
             <h3 class="text-xl font-semibold">{item.name}</h3>
             <p class="text-sm dark:text-gray">

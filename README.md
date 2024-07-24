@@ -4,6 +4,7 @@
 
 Dentro de tu proyecto Astro, encontrarás la siguiente estructura de carpetas y archivos:
 
+```
 /
 ├── public/
 │ ├── assets
@@ -32,9 +33,7 @@ Dentro de tu proyecto Astro, encontrarás la siguiente estructura de carpetas y 
 │ ├── utils/
 ├── package.json
 └── ...
-
-ruby
-Copiar código
+```
 
 - **`src/pages/`**: Astro busca archivos `.astro` o `.md` en este directorio. Cada archivo se convierte en una ruta basada en su nombre de archivo.
 - **`src/components/`**: Aquí es donde puedes colocar cualquier componente Astro/React/Vue/Svelte/Preact.
@@ -46,13 +45,13 @@ Copiar código
 Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
 | Comando                | Acción                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Instala las dependencias                        |
-| `npm run dev`          | Inicia el servidor de desarrollo local en `localhost:3000` |
-| `npm run build`        | Construye tu sitio para producción en `./dist/` |
+| :--------------------- | :-----------------------------------------------------------|
+| `npm install`          | Instala las dependencias                                    |
+| `npm run dev`          | Inicia el servidor de desarrollo local en `localhost:3000`  |
+| `npm run build`        | Construye tu sitio para producción en `./dist/`             |
 | `npm run preview`      | Previsualiza tu construcción localmente, antes de desplegar |
-| `npm run astro ...`    | Ejecuta comandos CLI como `astro add`, `astro check` |
-| `npm run astro --help` | Obtén ayuda usando el CLI de Astro               |
+| `npm run astro ...`    | Ejecuta comandos CLI como `astro add`, `astro check`        |
+| `npm run astro --help` | Obtén ayuda usando el CLI de Astro                          |
 
 ## 👀 ¿Quieres aprender más?
 

@@ -4,6 +4,7 @@
 
 Dentro del proyecto Astro, encontrarás la siguiente estructura de carpetas y archivos:
 
+```
 /
 ├── public/
 │ ├── assets
@@ -32,6 +33,7 @@ Dentro del proyecto Astro, encontrarás la siguiente estructura de carpetas y ar
 │ ├── utils/
 ├── package.json
 └── ...
+```
 
 - **`src/pages/`**: Astro busca archivos `.astro` o `.md` en este directorio. Cada archivo se convierte en una ruta basada en su nombre de archivo.
 - **`src/components/`**: Aquí es donde puedes colocar cualquier componente Astro/React/Vue/Svelte/Preact.

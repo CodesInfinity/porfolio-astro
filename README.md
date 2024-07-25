@@ -4,10 +4,7 @@
 
 Dentro del proyecto Astro, encontrarás la siguiente estructura de carpetas y archivos:
 
-<<<<<<< HEAD
-=======
 ```
->>>>>>> f1fc182e23f1f293b09983d496c6aaedc30ff0e1
 /
 ├── public/
 │ ├── assets
@@ -36,10 +33,7 @@ Dentro del proyecto Astro, encontrarás la siguiente estructura de carpetas y ar
 │ ├── utils/
 ├── package.json
 └── ...
-<<<<<<< HEAD
-=======
 ```
->>>>>>> f1fc182e23f1f293b09983d496c6aaedc30ff0e1
 
 - **`src/pages/`**: Astro busca archivos `.astro` o `.md` en este directorio. Cada archivo se convierte en una ruta basada en su nombre de archivo.
 - **`src/components/`**: Aquí es donde puedes colocar cualquier componente Astro/React/Vue/Svelte/Preact.
@@ -50,14 +44,14 @@ Dentro del proyecto Astro, encontrarás la siguiente estructura de carpetas y ar
 
 Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
-| Comando                | Acción                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Instala las dependencias                        |
-| `npm run dev`          | Inicia el servidor de desarrollo local en `localhost:3000` |
-| `npm run build`        | Construye tu sitio para producción en `./dist/` |
-| `npm run preview`      | Previsualiza tu construcción localmente, antes de desplegar |
-| `npm run astro ...`    | Ejecuta comandos CLI como `astro add`, `astro check` |
-| `npm run astro --help` | Obtén ayuda usando el CLI de Astro               |
+| Comando                | Acción                                                       |
+| :--------------------- | :------------------------------------------------------------|
+| `npm install`          | Instala las dependencias                                     |
+| `npm run dev`          | Inicia el servidor de desarrollo local en `localhost:3000`   |
+| `npm run build`        | Construye tu sitio para producción en `./dist/`              |
+| `npm run preview`      | Previsualiza tu construcción localmente, antes de desplegar  |
+| `npm run astro ...`    | Ejecuta comandos CLI como `astro add`, `astro check`         |
+| `npm run astro --help` | Obtén ayuda usando el CLI de Astro                           |
 
 ## 👀 ¿Quieres aprender más?
 
